@@ -1,0 +1,9 @@
+product_new:
+    pattern:  /product
+    defaults: { _controller: AcmeStoreBundle:Product:index }
+category_new:
+    pattern:  /category
+    defaults: { _controller: AcmeStoreBundle:Category:index }
+product_create:
+    pattern:  /product/create
+    defaults: { _controller: AcmeStoreBundle:Product:create }
